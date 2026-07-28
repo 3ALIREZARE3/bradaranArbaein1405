@@ -54,6 +54,12 @@
     display:block;
     opacity:.85;
   }
+  .oath-line{
+    color:var(--gold-2);
+    font-size:13px;
+    letter-spacing:.04em;
+    margin:0 0 10px;
+  }
   .eyebrow{
     display:inline-block;
     font-size:12.5px;
@@ -260,6 +266,12 @@
     margin-bottom:8px;
     display:block;
   }
+  footer .credit{
+    margin-top:14px;
+    font-size:11.5px;
+    color:var(--ink-muted);
+    opacity:.8;
+  }
 
   @media (prefers-reduced-motion: reduce){
     .pending .dot{ animation:none; }
@@ -279,8 +291,9 @@
       </g>
       <circle cx="170" cy="13" r="3" fill="var(--gold)"/>
     </svg>
-    <span class="eyebrow">اربعین حسینی</span>
-    <h1>کارت اطلاعات کاروان</h1>
+    <p class="oath-line">انا علی العهد</p>
+    <span class="eyebrow">اربعین حسینی 1405</span>
+    <h1>کارت اطلاعات کاروان بسیج دانشجویی دانشگاه علوم پزشکی گلستان (برادران)</h1>
     <p class="subtitle">اطلاعات تماس، اسکان و مراکز درمانی مسیر</p>
   </header>
 
@@ -375,7 +388,33 @@
       آدرس اسکان
     </h2>
     <div class="card">
-      <div class="pending"><span class="dot"></span> اطلاعات اسکان به‌زودی تکمیل می‌شود</div>
+      <div class="addr-block">
+        <div class="addr-title">اسکان کربلا</div>
+        <div class="addr-text">
+          موقعیت: خیابان اصلی العباس، خیابان فرعی الدهّانه<br>
+          حسینیه ام‌البنین یا حسینیه الباوی — موکب آرمان حسین
+        </div>
+        <a class="map-link" href="https://nshn.ir/7bZy_wNAS3Wq" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          نمایش روی نقشه
+        </a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="addr-block">
+        <div class="addr-title">اسکان نجف</div>
+        <div class="addr-text">
+          نجف اشرف، شهر قدیم، خیابان السور، روبه‌روی گاراژ طبقاتی، هتل مدینة العلم، برّانی خاندان کاشف‌الغطاء
+        </div>
+        <div class="addr-text" style="margin-top:-4px;">
+          راهنما: از باب الجواهری که بیرون بیایید، اولین کوچه سمت راست
+        </div>
+        <a class="map-link" href="https://maps.google.com/?q=31.997782,44.312450" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          نمایش روی نقشه
+        </a>
+      </div>
     </div>
   </section>
 
@@ -413,7 +452,9 @@
 
   <footer>
     <span class="ya">یا حسین (ع)</span>
-    این کارت اطلاعاتی به‌مرور تکمیل می‌شود. شماره‌ها و آدرس‌ها را پیش از سفر بررسی و ذخیره کنید.
+    <span class="oath-line" style="display:block; margin-bottom:10px;">انا علی العهد</span>
+    شماره‌ها و آدرس‌ها را پیش از سفر بررسی و ذخیره کنید.
+    <div class="credit">ساخته شده با ❤️ توسط علیرضا زارع</div>
   </footer>
 
 </div>
